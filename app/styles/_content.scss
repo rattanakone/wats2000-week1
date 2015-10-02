@@ -1,0 +1,29 @@
+body {
+    color: green;
+}
+
+.marketing {
+    h4 a:link {
+        color: $brand-warning;
+    }
+    p {
+        color: $brand-primary;
+    }
+}
+
+.text-muted {
+	color: black;
+}
+
+.container .jumbotron {
+    @include border-top-radius(50px);
+    @include border-bottom-radius(50px);
+}
+
+.jumbotron img {
+	border: 1px solid black;
+}
+
+.container .jumbotron {
+	background-image: linear-gradient(tomato, lightgreen);
+}
