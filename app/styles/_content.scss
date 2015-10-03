@@ -20,6 +20,7 @@ body {
 .container .jumbotron {
     @include border-top-radius(50px);
     @include border-bottom-radius(50px);
+    background-image: linear-gradient(tomato, lightgreen);
 }
 
 .jumbotron {
@@ -29,14 +30,9 @@ body {
     .lead {
         color: black;
     }
-}
-
-.jumbotron img {
-	border: 1px solid black;
-}
-
-.container .jumbotron {
-	background-image: linear-gradient(tomato, lightgreen);
+    .jumbotron img {
+        border: 1px solid black;
+    }
 }
 
 .footer {
